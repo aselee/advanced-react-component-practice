@@ -6,7 +6,7 @@ function TopNav() {
       <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown"><i className="fa fa-envelope"></i> <b className="caret"></b></a>
           <ul className="dropdown-menu message-dropdown">
-
+              {/*props.message*/}
               {/*  <MessagePreview>   */}
               <li className="message-preview">
                   <a href="#">
@@ -26,7 +26,6 @@ function TopNav() {
                   </a>
               </li>
               {/*  </MessagePreview>   */}
-
 
               <li className="message-footer">
                   <a href="#">Read All New Messages</a>
